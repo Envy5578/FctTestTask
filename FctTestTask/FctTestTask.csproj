@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FctTestTask.DAL\FctTestTask.DAL.csproj" />
+    <ProjectReference Include="..\FctTestTask.Service\FctTestTask.Service.csproj" />
   </ItemGroup>
 
 </Project>
