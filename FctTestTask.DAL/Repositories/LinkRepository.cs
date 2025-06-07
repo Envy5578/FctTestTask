@@ -21,5 +21,8 @@ namespace FctTestTask.DAL.Repositories
             await _appDbContext.Links.AddAsync(entity);
             await _appDbContext.SaveChangesAsync();
         }
+        public IQueryable<LinkEntity> GetAll() {
+            return _appDbContext.Links;
+        }
     }
 }
