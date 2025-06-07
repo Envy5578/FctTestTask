@@ -11,6 +11,6 @@ namespace FctTestTask.Service.Interfaces
 {
     public interface ILinkService
     {
-        Task<IBaseRepository<LinkEntity>> Create(LinkLongViewModel link);
+        Task<IBaseResponse<LinkEntity>> Create(LinkLongViewModel link);
     }
 }
